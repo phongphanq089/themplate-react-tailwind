@@ -1,5 +1,4 @@
 import { Button, Card, Menu, MenuHandler, MenuItem, MenuList } from '@material-tailwind/react'
-import React from 'react'
 import { FaFile } from 'react-icons/fa'
 import ApexChart from '~/components/charts/ApexChart'
 import { LineChartData, LineChartOption } from '~/components/charts/variable'

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import NavbarMenu from '~/components/NavBar'
 import SidebarLayout from '~/components/SliderBar'

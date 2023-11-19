@@ -1,4 +1,3 @@
-import React from 'react'
 import { MixedChartData, MixedChartOption } from '~/components/charts/variable'
 import ApexChart from '~/components/charts/ApexChart'
 import { Card } from '@material-tailwind/react'
