@@ -1,0 +1,65 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.style-text__gradient {
+  margin: 0;
+  background-clip: text !important;
+  background: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+  -webkit-text-fill-color: transparent !important;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.siderbar-main {
+  border-right-width: 0px !important;
+  border-color: unset;
+}
+
+.siderbar-main .ps-sidebar-container {
+  overflow: unset;
+  overflow-y: unset !important;
+  background-color: unset !important;
+}
+
+.dropdown-lineChart > button {
+  background-image: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+}
+
+.apexcharts-tooltip {
+  color: black !important;
+}
+.apexcharts-menu {
+  color: black !important;
+}
+
+.bnt-linear-1 {
+  background-image: linear-gradient(to right, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+}
